@@ -33,6 +33,7 @@ Results from this project indicated that the model's accuracy was relatively low
 - TensorFlow
 - Spring Boot
 - Spring Security
+- MySQL
 - HTML
 - CSS
 
