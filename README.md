@@ -10,7 +10,7 @@
 
 ## Demo
 
-![Home Page](https://user-images.githubusercontent.com/71786193/187450891-cf310fa7-6ec4-4207-aac6-084c2097a32d.mp4)
+[Home Page](https://user-images.githubusercontent.com/71786193/187450891-cf310fa7-6ec4-4207-aac6-084c2097a32d.mp4)
 
 
 
