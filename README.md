@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-![Home Page](/screenshots/1.png "Home Page")
+![Home Page](/FYP Video Demo.mp4 "Home Page")
 
 ![](/screenshots/2.png)
 
