@@ -5,20 +5,16 @@
 ## Links
 
 - [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
+- [Front-end]()
+- [Back-end]()
 
-- [Live](<Homepage url> "Live View")
+## Demo
 
-- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
+![Home Page](https://user-images.githubusercontent.com/71786193/187450891-cf310fa7-6ec4-4207-aac6-084c2097a32d.mp4)
 
-- [API](<API Link> "API")
 
-## Screenshots
 
-![Home Page](/FYP Video Demo.mp4)
 
-![](/screenshots/2.png)
-
-![](/screenshots/3.png)
 
 ## Available Commands
 
@@ -50,23 +46,22 @@ For running the server file on you can use this command.
 ## Built With
 
 - JavaScript
+- React
 - Node
 - NPM
 - Webpack
+- TensorFlow
+- Spring Boot
+- Spring Security
 - HTML
 - CSS
 
-## Future Updates
-
-- [ ] Reliable Storage
-
 ## Author
 
-**Rohit Jain**
+**Vasiliy Bochagov**
 
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
+- [Profile](https://github.com/Vasily12 "Vasiliy Bochagov")
+- [Email](mailto:vasiliy.bochagov@gmail.com?subject=Hi "Hi!")
 
 ## 🤝 Support
 
