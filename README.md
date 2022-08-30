@@ -1,47 +1,27 @@
-<h1 align="center"><Article Profanity Censor></h1>
+# Article Profanity Censor
 
-<p align="center"><project-description></p>
+This project was developed as part of the final year Computer Science dissertation. The project itself aimed to develop a web application to combat online article profanity. More specifically, by replacing observed profane words within the article text with non-profane words that suit the context of the sentence. 
 
 ## Links
 
-- [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
-- [Front-end]()
-- [Back-end]()
+- [Repo](https://github.com/Vasily12/Article-Profanity-Censor "Article-Profanity-Censor Repo")
+- [React Front-end](https://github.com/Vasily12/Article-Profanity-Censor/tree/main/Front-end/react-frontend)
+- [Spring Boot Back-end](https://github.com/Vasily12/Article-Profanity-Censor/tree/main/Back-end)
+- [Flask Server](https://github.com/Vasily12/Article-Profanity-Censor/tree/main/Front-end/flask-server)
 
 ## Demo
 
-[Home Page](https://user-images.githubusercontent.com/71786193/187450891-cf310fa7-6ec4-4207-aac6-084c2097a32d.mp4)
+[Preview](https://user-images.githubusercontent.com/71786193/187450891-cf310fa7-6ec4-4207-aac6-084c2097a32d.mp4)
 
+## Implementation
 
+During the development of this project, I used ***Spring Boot*** and ***Flask*** as the back-end, ***React*** as the front-end and ***MySQL*** as the database. The *Spring Boot* framework enabled me to arrange the software functionality as a collection of loosely coupled services, thus achieving a service-oriented architecture that is much more maintainable, scalable and secure than a monolithic architecture.
 
+Furthermore, to implement the aim of replacing profane words with non-profane words based on the context of the sentence, I incorporated a *transformer-based* machine learning technique called ***BERT***. I also used the *Hugging Face* library to develop a masked language model that I trained on the BERT database.
 
+# Results
 
-## Available Commands
-
-In the project directory, you can run:
-
-### `npm start" : "react-scripts start"`,
-
-The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### `"npm run build": "react-scripts build"`,
-
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
-
-### `"npm run test": "react-scripts test"`,
-
-Launches the test runner in the interactive watch mode.
-
-### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
-
-For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
-
-### `"serve": "node server"`
-
-For running the server file on you can use this command.
-
-### `npm run serve`
+Results from this project indicated that the model's accuracy was relatively low, which I plan to work on and improve as I learn more about machine learning techniques and their impacts on prediction accuracy.
 
 ## Built With
 
