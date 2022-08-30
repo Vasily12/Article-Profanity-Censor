@@ -1,0 +1,83 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  border-radius: 2px;
+  border: none;
+}
+
+.form-group {
+  margin-block: 30px;
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.navbar.navbar-expand {
+  margin-top: -2.5rem;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  width: 10rem;
+}
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link.last {
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+.nav-link.last:hover {
+  color: #145364;
+}
+.nav-link.last:focus {
+  color: #145364;
+}
+
+.nav-link.link {
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.nav-link.link:hover {
+  color: #145364;
+  outline: 1px solid #145364;
+}
+.nav-link.link:focus {
+  color: #145364;
+  outline: 1px solid #145364;
+}
+
+.nav-link.last-item {
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.nav-link.last-item:hover {
+  color: rgb(235, 42, 42);
+}

@@ -1,0 +1,451 @@
+.main-image {
+  background-image: url(./background4.jpg);
+  width: 120rem;
+  height: 65.1rem;
+  margin-left: -19.47rem;
+  margin-top: -13rem;
+}
+
+.article-search-image {
+  background-image: url(./background.jpg);
+  width: 120rem;
+  height: 65.1rem;
+  margin-left: -19.47rem;
+  margin-top: -13rem;
+}
+
+.functionality-1 {
+  display: flex;
+  width: 50rem;
+  margin-left: 34.3rem;
+  margin-top: 6rem;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 254, 251, 0.397);
+  cursor: pointer;
+  transform: scale(1);
+  transition-duration: 100ms;
+}
+
+.functionality-1:hover {
+  transition-duration: 100ms;
+  transform: scale(1.1);
+}
+
+.functionality-2 {
+  display: flex;
+  width: 50rem;
+  margin-left: 34.3rem;
+  margin-top: 2rem;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 254, 251, 0.397);
+  cursor: pointer;
+  transform: scale(1);
+  transition-duration: 100ms;
+}
+
+.functionality-2:hover {
+  transition-duration: 100ms;
+  transform: scale(1.1);
+}
+
+.functionality-3 {
+  display: flex;
+  width: 50rem;
+  margin-left: 34.3rem;
+  margin-top: 2rem;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 254, 251, 0.397);
+  cursor: pointer;
+  transform: scale(1);
+  transition-duration: 100ms;
+}
+
+.functionality-3:hover {
+  transition-duration: 100ms;
+  transform: scale(1.1);
+}
+
+.show-hide {
+  position: absolute;
+  margin-left: 6.7rem;
+  margin-top: 2.1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.label {
+  margin-bottom: 1rem;
+}
+
+.container-fluid1 {
+  margin-top: 13rem;
+}
+
+.email-password-change-container {
+  display: flex;
+  margin-left: 40rem;
+  width: 40rem;
+}
+
+.change-label {
+  position: relative;
+  margin-left: 2rem;
+  width: 11rem;
+}
+
+.change-btn {
+  position: relative;
+  width: 10rem;
+  padding: 6px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(106, 106, 185);
+
+  transform: scale(1);
+}
+
+.change-btn1 {
+  position: relative;
+  margin-top: 4px;
+  padding: 6px;
+  margin-left: 0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(106, 106, 185);
+
+  transform: scale(1);
+}
+
+.change-btn:hover {
+  transform: scale(1.06);
+}
+
+.change-btn1:hover {
+  transform: scale(1.06);
+}
+
+.username-input-control {
+  transition-duration: 2s;
+}
+
+.btn.btn-primary.btn-block {
+  padding: 0.5rem;
+  width: 9rem;
+  font: 1.2em sans-serif;
+  transform: scale(1);
+}
+
+.btn.btn-primary.btn-block:hover {
+  transform: scale(1.1);
+  outline: 1px solid white;
+  opacity: 90%;
+}
+
+.checkbutton {
+  padding: 0.5rem;
+  width: 13rem;
+  font: 1em sans-serif;
+}
+
+.checkbutton:hover {
+  color: rgb(66, 65, 65);
+  opacity: 90%;
+}
+
+.btn.btn-success.btn-block {
+  padding: 0.7rem;
+  width: 9rem;
+  font: 1.2em sans-serif;
+}
+.btn.btn-primary.btn-block.new {
+  margin-bottom: 1rem;
+}
+
+.analysis-btn {
+  padding: 0.7rem;
+  margin-left: 1rem;
+  width: 9rem;
+  font: 1.2rem sans-serif;
+}
+
+.search-icon {
+  position: absolute;
+  margin-left: -6.5rem;
+  margin-top: 50px;
+  background-color: transparent;
+  color: rgb(124, 123, 123);
+  cursor: text;
+}
+
+.loading-icon {
+  position: absolute;
+  margin-top: 10rem;
+}
+
+.container-article {
+  background-color: #f1eff1d8;
+  border-radius: 20px 5px 5px 20px;
+  width: 80rem;
+  overflow-y: scroll;
+  height: 45rem;
+}
+
+.container-article::-webkit-scrollbar {
+  width: 10px;
+}
+
+.container-article::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.container-article::-webkit-scrollbar-thumb {
+  background: rgb(167, 165, 165);
+  border-radius: 10px;
+}
+
+.container-text {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.go-back-container {
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
+
+.go-back {
+  cursor: pointer;
+  padding: 12px 10px 15px 10px;
+  border-radius: 10px;
+}
+
+.go-back:hover {
+  outline: 1px solid white;
+}
+
+.articles-container {
+  width: 110rem;
+  margin-left: 5rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 10px;
+  background-color: rgba(253, 251, 251, 0.363);
+}
+
+.container-saved-article {
+  background-color: rgb(231, 230, 230);
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 2rem;
+  padding: 1.1rem 1rem 0.5rem 1rem;
+  display: flex;
+}
+
+.container-saved-article:hover {
+  outline: 2px solid #145364;
+}
+
+.container-save {
+  margin-top: 5rem;
+  color: black;
+  margin-bottom: 3rem;
+}
+
+.compare-button-function {
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  margin-left: 2.55rem;
+  border-radius: 12px;
+  margin-bottom: -1rem;
+  background-color: rgb(71, 124, 88);
+  color: white;
+  transform: scale(0.75);
+  transition-duration: 200ms;
+}
+
+.compare-button-function:hover {
+  outline: 2px solid rgb(173, 212, 173);
+  transform: scale(1.02);
+}
+
+.title {
+  font-weight: 500;
+  width: 35rem;
+  padding-top: 10px;
+}
+
+.compare-button {
+  position: relative;
+  margin-bottom: 0.5rem;
+  margin-left: 15rem;
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 8px 17px 8px 17px;
+  border-radius: 12px;
+  background-color: lightgrey;
+
+  transform: scale(1);
+}
+
+.compare-button:hover {
+  transform: scale(1.1);
+}
+
+.view-article {
+  position: relative;
+  margin-left: 29rem;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 8px 23px 8px 23px;
+  border-radius: 12px;
+  background-color: lightgrey;
+
+  transform: scale(1);
+}
+
+.view-article:hover {
+  outline: 2px solid rgb(200, 200, 228);
+  color: white;
+  background-color: rgb(73, 73, 207);
+  transform: scale(1.1);
+}
+
+.get-link {
+  position: relative;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  background-color: transparent;
+  border: none;
+  padding: 8px 0px 8px 0px;
+  border-radius: 12px;
+  background-color: lightgrey;
+  transform: scale(1);
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  padding: 12px 18px 12px 18px;
+}
+
+.link:hover {
+  color: white;
+}
+
+.get-link:hover {
+  background-color: rgb(73, 73, 207);
+  transform: scale(1.1);
+  outline: 2px solid rgb(200, 200, 228);
+}
+
+.delete-link {
+  position: relative;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 8px 17px 8px 17px;
+  border-radius: 12px;
+  background-color: lightgrey;
+
+  transform: scale(1);
+}
+
+.delete-link:hover {
+  color: white;
+  background-color: rgb(207, 74, 74);
+  transform: scale(1.1);
+  outline: 2px solid rgb(226, 173, 173);
+}
+
+.comparison-container {
+  margin-left: 3.5rem;
+  margin-top: 1rem;
+}
+
+.article-title1 {
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.article-title2 {
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.metrics-container {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.article1-metrics-container {
+  padding: 1rem;
+  margin-left: 13rem;
+  width: 32.2rem;
+  background-color: rgba(231, 230, 230, 0.185);
+  border-radius: 10px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.metric-type-container {
+  margin-left: 3.5rem;
+  color: rgb(17, 11, 11);
+  margin-top: 7.9rem;
+}
+
+.article2-metrics-container {
+  padding: 1rem;
+  margin-left: 3.5rem;
+  width: 32.5rem;
+  background-color: rgb(231, 230, 230, 0.185);
+  border-radius: 10px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.metric-item1 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  color: white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.metric-item1:hover {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  color: black;
+}
+
+.metric-item2 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  color: white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+.metric-item2:hover {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  color: black;
+}
+
+.metric-item {
+  padding-bottom: 1.2rem;
+  padding-top: 1.7rem;
+}
