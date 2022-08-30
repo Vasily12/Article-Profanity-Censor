@@ -19,7 +19,7 @@ During the development of this project, I used ***Spring Boot*** and ***Flask***
 
 Furthermore, to implement the aim of replacing profane words with non-profane words based on the context of the sentence, I incorporated a *transformer-based* machine learning technique called ***BERT***. I also used the *Hugging Face* library to develop a masked language model that I trained on the BERT database.
 
-# Results
+## Results
 
 Results from this project indicated that the model's accuracy was relatively low, which I plan to work on and improve as I learn more about machine learning techniques and their impacts on prediction accuracy.
 
